@@ -1,0 +1,232 @@
+html, body { 
+  background-color: #f5aa1d; 
+  color: black; 
+  font-family: Verdana;
+  margin: 0px; 
+  padding: 0px; 
+  overflow:hidden;
+}
+
+body
+{
+	width:100%;
+	height:100%;
+}
+
+
+/* ESTILOS DEL TITULO */
+
+h1
+{
+	display:block;
+	color:#205085 ;
+	text-align:center;
+	width:100%;
+	height:40px;
+	padding-top:10px;
+}
+
+
+/* ESTILOS DEL MEN� DE NAVEGACI�N */
+
+
+div.menu
+{
+	display:block;
+	width:100%;
+	height:25px;
+	margin: 0 auto;
+}
+
+.menu ul div.clear
+{
+	clear:both;
+}
+
+.menu ul 
+{
+	text-align:center;
+	float:left;
+	width:100%;
+	background-color:#F2F2F2;
+	height:25px;
+	padding-bottom:10px;
+}
+
+.menu ul div li
+{
+	float:left;
+	list-style:none;
+	text-align:center;
+	width:23%;
+	height:25px;
+	padding-bottom:10px;
+}
+
+.menu ul div li a
+{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.menu ul div.eleccion1 li
+{
+	background-color:#61D5FD;	
+}
+
+.menu ul div.eleccion2 li
+{
+	background-color:#75cbf3;
+}
+
+.menu ul div.eleccion3 li
+{
+	background-color:#48B0E0;	
+}
+
+.menu ul div.eleccion4 li
+{
+	background-color:#2698D0;	
+}
+
+.menu ul div.eleccion5 li
+{
+	background-color:#297CBE;	
+}
+
+.menu ul div.eleccion6 li
+{
+	background-color:#205085;	
+}
+
+
+/* ESTILOS DE LA IMAGEN DEL CUERPO */
+
+p.imagen
+{
+	width:100%;
+	text-align:center;
+	margin: 0 auto;
+}
+
+table.img
+{
+	width:50px;
+	height:50px;
+	text-align:center;
+}
+
+/* ESTILOS DEL MEN� DEL PIE DE P�GINA */
+
+.pie
+{
+	color:#FFFFFF;
+	display:block;
+	clear:both;
+	text-align:center;
+	background-color:#205085;	
+	width:100%;
+	height:5%;
+}
+
+/* ESTILOS FORMULARIOS */
+form
+{
+	text-align:center;
+}
+
+/* ESTILOS RESULTADOS */
+
+.resultado
+{
+	text-align:center;
+	color:green;
+}
+
+/* ESTILOS ERROR */
+
+.error
+{
+	text-align:center;
+	color:red;
+}
+
+/* ESTILOS FORMULARIO ENTRADA */
+
+div.entrada
+{
+   padding:15px;
+   cursor:pointer;
+   display:block;
+   width:290px;
+   margin: 0 auto;
+   text-align:left;
+   background-color:#75cbf3;
+}
+
+/* TABLAS FORMULARIOS INTERNOS */
+
+table.datos
+{
+   width:400px;
+   margin:0 auto;
+   text-align:center;
+   background-color:#E2E2E2;
+}
+
+table.elegir
+{
+   margin:0 auto;
+   text-align:center;	
+}
+
+
+table{
+border-radius: 3px;
+border: solid 1px #f1f1f1;
+box-shadow: 0 0 10px #333;
+margin: 10px;
+
+
+}
+table a{
+        color: #fff;
+}
+table thead tr th,
+table tfoot tr td{
+        padding: 15px 0;
+        background-color: #314456;			
+        color: #fff;
+        font-weight: bold;
+        font-size: 11px;
+        text-align: center;
+        min-width: 10px;
+}
+table image{
+    width: 40px;
+    height: 40px;
+}
+table tbody tr td{
+                transition: all 400ms ease-in;
+                        -webkit-transition: all 400ms ease-in;
+                        -moz-transition: all 400ms ease-in;
+                        -o-transition: all 400ms ease-in;
+                        -ms-transition: all 400ms ease-in;
+                padding: 5px 5px;
+                word-wrap: break-word;
+                border: solid 0px #fff;
+                border-bottom: solid 1px #fff;
+                border-top: solid 1px #f1f1f1;
+                border-right: solid 1px #f1f1f1;
+        }
+table tbody tr td:nth-child(odd){
+                        background-color: #fff;
+                }
+table tbody tr td:nth-child(even){
+                        background-color: #fafafa;
+                }
+table tbody tr:hover td:nth-child(odd),
+table tbody tr:hover td:nth-child(even){
+                                background: #7290ae;
+                                color: #fff;
+                        }
